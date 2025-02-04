@@ -56,5 +56,6 @@ def get_score(game_stamps, offset):
             return stamp["score"]["home"], stamp["score"]["away"]
     return 0, 0
 
+#Example
 home_score, away_score = get_score(game_stamps, 12345)
 print(f"Home: {home_score}, Away: {away_score}")
